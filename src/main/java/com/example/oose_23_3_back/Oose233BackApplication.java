@@ -21,7 +21,7 @@ public class Oose233BackApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
 						.allowCredentials(true)
-						.allowedOrigins("http://localhost:3000");
+						.allowedOrigins("http://119.56.139.127:3000");
 			}
 		};
 	}
